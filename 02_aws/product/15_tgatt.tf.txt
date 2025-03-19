@@ -1,0 +1,5 @@
+resource "aws_lb_target_group_attachment" "lch_lbtgat" {
+  target_group_arn = aws_lb_target_group.lch_lbtg.arn
+  target_id        = aws_instance.lch_web.id
+  port             = 80
+}
