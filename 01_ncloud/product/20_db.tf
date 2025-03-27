@@ -6,4 +6,5 @@ resource "ncloud_mysql" "lch_mysql" {
   user_password      = "It12345!"
   host_ip            = "%"
   database_name      = "wordpress"
+  is_ha              = false
 }
