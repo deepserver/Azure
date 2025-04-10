@@ -1,11 +1,11 @@
 variable "access_key" {
   type    = string
-  default = "ncp_iam_BPAMKR5DUN2d1TBPqBzq"
+  default = ""
 }
 
 variable "secret_key" {
   type    = string
-  default = "ncp_iam_BPKMKR12twQcNj1UZ8TfpzUko6PvTQIcFw"
+  default = ""
 }
 
 variable "region" {
