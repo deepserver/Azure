@@ -1,1 +1,3 @@
-terraform으로 작성한 ncp aws azure 오토스케일링까지 네트워크구축 실습파일 입니다.
+1. AWS, NCloud 오토스케일링 구축 프로젝트
+2. Azure vmss 고가용성인프라 구축 프로젝트
+3. Azure hybrid 인프라 구축 프로젝트

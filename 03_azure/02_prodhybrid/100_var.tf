@@ -15,12 +15,12 @@ variable "bastion_ip" {
 
 variable "local_public_ip" {
   type    = string
-  default = "61.108.60.26"
+  default = "1.220.76.5"
 }
 
-variable "auto_ip" {
+variable "DB_ip" {
   type    = string
-  default = "10.0.6.0/24"
+  default = "10.10.5.11"
 }
 
 variable "password" {
