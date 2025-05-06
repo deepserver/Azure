@@ -6,7 +6,7 @@
 
 2. Azure 하이브리드 클라우드 보안구축 2025.03.28.
 
-![image](https://github.com/user-attachments/assets/2cd5000d-f2c0-4bda-8e1c-3bebf365fa75)
+![team3-_vpn__ drawio_1](https://github.com/user-attachments/assets/eac86385-5b03-4de8-9ea3-fabf7208c287)
 
 3. Azure vmss 고가용성인프라 구축 프로젝트 2025.05.03.
 
