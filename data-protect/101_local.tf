@@ -72,11 +72,7 @@ sudo useradd -m smlee
 sudo useradd -m kjs
 sudo useradd -m lhb
 sudo useradd -m lch
-echo "team3:team3" | sudo chpasswd
-echo "smlee:team3" | sudo chpasswd
-echo "kjs:team3" | sudo chpasswd
-echo "lhb:team3" | sudo chpasswd
-echo "lch:team3" | sudo chpasswd
+
 cat <<EOF > /etc/vsftpd.conf
 anonymous_enable=NO
 local_enable=YES
@@ -88,7 +84,6 @@ dirmessage_enable=YES
 xferlog_enable=YES
 connect_from_port_20=NO
 #chown_uploads=YES
-#chown_username=whoever
 xferlog_file=/ftp/xferlog
 xferlog_std_format=YES
 idle_session_timeout=120

@@ -40,7 +40,7 @@ variable "auto_ip" {
 
 variable "password" {
   type    = string
-  default = "It12345!"
+  default = ""
 }
 
 variable "id_rsa" {
